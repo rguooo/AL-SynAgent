@@ -1,0 +1,3 @@
+best model parameters:  {'colsample_bytree': 0.7741056108569647, 'gamma': 0.16774738047507906, 'learning_rate': 0.259770905689508, 'max_depth': 5.0, 'min_child_weight': 3.567294542199361, 'n_estimators': 176.0, 'subsample': 0.7792313636696478}
+The_best_model_train_score: AUC: 0.500000, Accuracy: 0.500000, Precision: 0.000000, Recall: 0.000000
+The_best_model_test_score: AUC: 0.500000, Accuracy: 0.500000, Precision: 0.000000, Recall: 0.000000

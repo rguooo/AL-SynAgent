@@ -1,0 +1,91 @@
+                                                                                            "mo_s4f321_"  PLATON-GENERAL   Page    1
+====================================================================================================================================
+PLATON(V- 90622)-Run for: mo_s4f321_eurb_41C 2 2 21     R = 0.16                                          TIME: sday, 31 October 202
+====================================================================================================================================
+                                                                                                              (C) 1980-2022 A.L.Spek
+                                                       ============
+====================================================== Crystal Data ================================================================
+                                                       ============
+                        Input Cell  (Lattice Type: C)   -   Temp = 413K             Reduced Cell     (Acta Cryst.(1976),A32,297-298)
+---------------------------------------------------------------------------------   ------------------------------------------------
+a =    9.9457(13)  Angstrom                alpha =            90 Degree             a  =    9.946     alpha  =   90.00  V  =  1226.8
+b =     24.743(4)                           beta =            90                    b  =    9.970     beta   =  111.90
+c =    9.9699(12)                          gamma =            90                    c  =   13.334     gamma  =   90.00
+
+V =     2453.5(6) Cubic-Angstrom          d(100) =      9.9457   Angstrom                        Niggli Values
+                                          d(010) =     24.7430                              98.917    99.399   177.783
+Lambda(MoKa) =   0.71073 Angstrom         d(001) =      9.9699                               0.000   -49.458     0.000
+
+                                                ==========================
+=============================================== Orthogonalization Matrices =========================================================
+                                                ==========================
+
+(See e.g. J.D.Dunitz, Xray Analysis and Structure Determination of Organic Molecules, Cornell Univ. Press, 1979, P236)
+
+(XO)   (   9.94570         0         0 ) (X)   ,   (X)   (   0.10055         0         0 ) (XO)      Orthogonal Axes AO, BO and CO
+(YO) = (         0  24.74300         0 )*(Y)   ,   (Y) = (         0   0.04042         0 )*(YO)             are defined as:
+(ZO)   (         0         0   9.96990 ) (Z)   ,   (Z)   (         0         0   0.10030 ) (ZO)     AO // A, CO // C*, BO // CO X AO
+
+                                                  ====================
+================================================= Space Group Symmetry =============================================================
+                                                  ====================
+
+(See e.g. G. Burns & A.M. Glazer, Space Groups for Solid State Scientists, Academic Press, 1990 or Int. Tables A)
+
+Space Group  H-M:  C2221                                      Laue:  mmm
+Space Group Hall:  C 2c 2                          [Schoenflies: D2^5  ]
+Lattice Type: oC, Acentric, Orthorhombic, Multiplicity:   8( 4), No:  20
+
+Sohnke SpGr (Absolute Configuration) - P.G.Jones, Acta Cryst. (1986),A42,57.
+
+  Nr            ***** Symmetry Operation(s) *****
+
+   1               X ,              Y ,              Z
+   2             - X ,            - Y ,        1/2 + Z
+   3               X ,            - Y ,            - Z
+   4             - X ,              Y ,        1/2 - Z
+   5         1/2 + X ,        1/2 + Y ,              Z
+   6         1/2 - X ,        1/2 - Y ,        1/2 + Z
+   7         1/2 + X ,        1/2 - Y ,            - Z
+   8         1/2 - X ,        1/2 + Y ,        1/2 - Z
+                                                                                            "mo_s4f321_"  PLATON-ADDSYM    Page    2
+====================================================================================================================================
+ADDSYM - CHECK  (cf. MISSYM (C): Le Page, Y., J. Appl. Cryst. (1987), 20, 264-269; J. Appl. Cryst. (1988), 21, 983-984)
+------------------------------------------------------------------------------------------------------------------------------------
+- ADDSYM Search on ALL NON-H Chem. Types (Treated EQUAL) [Max NonFit 20 Perc]
+
+:: Excluded Disorder Atoms From ADDSYM Analysis:
+   Eu01
+   Rb01
+- Number of Excluded Disordered Input Atoms =     2
+- Number of Input Atoms Included in Search   20 (Unitcell   80)
+- Density based on Input Atom Set = 1.849 g.cm-3 - Vol / Non-H atom = 15.0 Ang^3
+- The Structure Implies the Following Symmetry Elements Subject to the Criteria:
+- Criteria 1.00 Deg (Metric), 0.25 Ang (Rot), 0.25 Ang (Inv), 0.25 Ang (Transl)
+
+Symm.  Input  Reduced  (Ang)        (Deg) Perc AvrDev.(Ang)          Input Cell
+Elem Cell_Row Cell_Row   d  Typ Dot Angle Fit  MaxDev.             x     y     z
+--------------------------------------------------------------------------------
+ 2   [ 0 0 1] [ 0-1 0]  9.97  2  1     0  100       0  Through   3/4   1/4     0
+  1                                                 0  Screw       0     0   1/2
+ 2   [ 1 0 0] [ 1 0 0]  9.95  2  2     0  100       0  Through     0   1/2   1/2
+                                                    0
+ 2   [ 0 1 0] [ 1 0 2] 24.74  2  2     0  100       0  Through   1/2     0   1/4
+                                                    0
+
+         T.R.A.N.S.F.O.R.M.A.T.I.O.N  M.A.T.R.I.X for CELL and HKL DATA
+         ==============================================================
+   Reduced->Convent         Input->Reduced       T = Input->Convent:    a' = T a
+--------------------------------------------------------------------------------
+(     1     0     0 )   (     1     0     0 )   (     1     0     0 )     Det(T)
+(    -1     0    -2 ) X (     0     0     1 ) = (     0     1     0 )       =
+(     0     1     0 )   (  -1/2  -1/2     0 )   (     0     0     1 )     1.000
+
+Cell Lattice  a       b       c    Alpha   Beta  Gamma Volume CrystalSystem Laue
+--------------------------------------------------------------------------------
+Input   oC  9.946  24.743   9.970  90.00  90.00  90.00   2454 orthorhombic   mmm
+Reduced  P  9.946   9.970  13.334  90.00 111.90  90.00   1227
+Convent oC  9.946  24.743   9.970  90.00  90.00  90.00   2453 orthorhombic   mmm
+
+:: *** No Obvious Extra Crystallographic Symmetry was Detected ***
+

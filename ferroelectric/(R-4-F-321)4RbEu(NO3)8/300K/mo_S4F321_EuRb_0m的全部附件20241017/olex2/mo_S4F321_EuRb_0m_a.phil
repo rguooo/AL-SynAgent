@@ -1,0 +1,66 @@
+snum {
+  current_process_diagnostics = 'refinement'
+  metadata {
+    resolved_conflict_items = "" _exptl_absorpt_correction_type \
+                              _cell_measurement_theta_min \
+                              _cell_measurement_theta_max \
+                              _exptl_absorpt_correction_type \
+                              _cell_measurement_theta_min \
+                              _exptl_crystal_description \
+                              _exptl_crystal_colour \
+                              _cell_measurement_theta_max
+  }
+  hkl {
+    hkl_stat_file = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m_a.hkl'
+  }
+  solution {
+    current_atomic_volume = 17
+  }
+  refinement {
+    completeness {
+      target = '- Laue Group Completeness to 2Θ=50.5: 100.0%%&#013;- Laue Group Completeness to 2Θ=53.1: 99.2%%&#013;- Point Group Completeness to 2Θ=50.5: 99.6%%&#013;- Point Group Completeness to 2Θ=53.1: 98.2%%'
+    }
+    parameters = '372.0'
+    data = '4884'
+    max_shift_over_esd = '0.000'
+    max_shift_site = '0'
+    max_shift_site_atom = 'O16^a'
+    max_shift_u = '0'
+    max_shift_u_atom = 'O13'
+    max_peak = '2.52'
+    max_hole = '-2.86'
+    goof = '1.03274'
+    hooft_str = '-0.23(3)'
+    last_R1 = '0.092835'
+    last_wR2 = '0.275667'
+    program = *XL XH ShelXH-1997 ShelXL ShelXL-1997 'olex2.refine' Unknown
+    method = '*Least Squares' CGLS 'Gauss-Newton' 'Levenberg-Marquardt' \
+             'Full Matrix' Unknown
+    max_cycles = '25'
+    max_peaks = '2'
+    suggested_weight = '0.1902 0'
+  }
+  history {
+    current_node = '308a27d2dd5915a6d8ea3b56100d774f'
+  }
+  metacif {
+    abs_file = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb.abs'
+    pcf_file = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\A.pcf'
+    p4p_file = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m.p4p'
+    integ_file = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m._ls'
+    list_abs_files = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb.abs;C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb.abs'
+    list_pcf_files = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\A.pcf;C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\A.pcf'
+    list_p4p_files = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m.p4p;C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m.p4p'
+    list_integ_files = 'C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m._ls;C:\\Users\\13009\\Desktop\\2D\\S4F321_EuRb\\300K\\mo_S4F321_EuRb_0m的全部附件20241017\\mo_S4F321_EuRb_0m._ls'
+    user_modified = _exptl_absorpt_correction_type \
+                    _cell_measurement_theta_min _cell_measurement_theta_max \
+                    _exptl_crystal_colour_primary _exptl_crystal_description \
+                    _exptl_crystal_size_min _exptl_crystal_size_mid \
+                    _exptl_crystal_size_max _exptl_crystal_colour \
+                    _chemical_absolute_configuration
+  }
+  report {
+    diffractometer = "Bruker APEX-II CCD"
+    title = "mo_S4F321_EuRb_0m_a"
+  }
+}

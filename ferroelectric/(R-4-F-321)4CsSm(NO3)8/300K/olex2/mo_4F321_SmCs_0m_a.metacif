@@ -1,0 +1,62 @@
+data_mo_4F321_SmCs_0m_a
+_olex2_submission_special_instructions 'No special instructions were received'
+_audit_creation_date              2024-11-18
+_audit_creation_method            
+;
+Olex2 1.5
+(compiled 2024.02.16 svn.r378c4104 for OlexSys, GUI svn.r6928)
+;
+
+_computing_molecular_graphics     'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_publication_material   'Olex2 1.5 (Dolomanov et al., 2009)'
+_publ_contact_author_email        ?
+_publ_contact_author_phone        ?
+_publ_contact_author_address      ?
+_publ_contact_author_id_orcid     ?
+_computing_structure_solution     'SHELXT 2018/2 (Sheldrick, 2018)'
+_atom_sites_solution_primary      dual
+_computing_structure_refinement   'SHELXL 2019/3 (Sheldrick, 2015)'
+_diffrn_source_voltage            50.0
+_diffrn_source_current            1.4
+_diffrn_source_power              0.07
+_cell_measurement_theta_min       2.19
+_cell_measurement_theta_max       28.99
+_cell_measurement_reflns_used     7663
+_computing_data_reduction         'SAINT V8.40B (?, 2016)'
+_computing_cell_refinement        'SAINT V8.40B (?, 2016)'
+_exptl_absorpt_correction_type    none
+_exptl_absorpt_correction_T_min   0.6151
+_exptl_absorpt_correction_T_max   0.7464
+_exptl_absorpt_process_details    
+;
+SADABS-2016/2 (Bruker,2016/2) was used for absorption correction.
+wR2(int) was 0.1256 before and 0.0625 after correction.
+The Ratio of minimum to maximum transmission is 0.8241.
+The \l/2 correction factor is Not present.
+;
+
+_symmetry_space_group_name_H-M    C2
+_diffrn_measurement_method        '\f and \w scans'
+_diffrn_standards_number          0
+_diffrn_measurement_device_type   'Bruker APEX-II CCD'
+_symmetry_cell_setting            Monoclinic'
+_diffrn_ambient_temperature       301.00
+_cell_measurement_temperature     301.00
+_publ_section_references          
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+Sheldrick, G.M. (2015). Acta Cryst. A71, 3-8.
+
+Sheldrick, G.M. (2015). Acta Cryst. C71, 3-8.
+;
+
+_exptl_crystal_colour_primary     colourless
+_exptl_crystal_description        block
+_exptl_crystal_size_min           0.1
+_exptl_crystal_size_mid           0.1
+_exptl_crystal_size_max           0.11
+_exptl_crystal_colour             colourless
+_publ_contact_author_name         ''
+

@@ -1,0 +1,17 @@
+# start Validation Reply Form
+_vrf_PLAT242_mo_4f321_smcs_0m_a
+;
+PROBLEM: Low    'MainMol' Ueq as Compared to Neighbors of        Cs1 Check
+RESPONSE: ...
+;
+_vrf_PLAT342_mo_4f321_smcs_0m_a
+;
+PROBLEM: Low Bond Precision on  C-C Bonds ...............    0.03692 Ang.
+RESPONSE: ...
+;
+_vrf_PLAT431_mo_4f321_smcs_0m_a
+;
+PROBLEM: Short Inter HL..A Contact  F21      ..O2       .       2.58 Ang.
+RESPONSE: ...
+;
+# end Validation Reply Form

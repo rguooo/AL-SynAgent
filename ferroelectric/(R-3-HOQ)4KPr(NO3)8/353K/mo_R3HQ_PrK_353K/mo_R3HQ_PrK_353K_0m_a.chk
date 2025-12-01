@@ -1,0 +1,229 @@
+#===============================================================================
+# PLATON/CHECK-( 90622) versus check.def version 220517, Entry: mo_r3hq_prk_353k
+# Data: mo_R3HQ_PrK_353K_0m_a.cif - Type: CIF    Bond Precision   C-C = 0.0084 A
+# Refl: mo_R3HQ_PrK_353K_0m_a.fcf - Type: LIST4                     Temp = 353 K
+# Audit:OLEX2 1.5 (COMPILED 2024.02.16 SVN.R378C4104 FOR OLEXSYS, GUI SVN.R6928)
+# Refin:SHELXL 2019/3 (SHELDRICK, 2015)
+# X-ray MoKa              R(int) = 0.163,  wR2/R(int) =  1.3,  Nref/Npar =   5.9
+# Cell   9.9188(6)   24.426(2)   9.8593(8)           90           90          90
+# Wavelength 0.71073  Volume Reported       2388.6(3) Calculated       2388.7(3)
+# SpaceGroup from Symmetry P 21 21 2    Hall: P 2 2ab               orthorhombic
+#                 Reported P 21 21 2          P 2 2ab               orthorhombic
+# MoietyFormula K N8 O24 Pr, 4(C7 H14 N O)
+#      Reported K N8 O24 Pr, 4(C7 H14 N O)
+#    SumFormula C28 H56 K N12 O28 Pr
+#      Reported C28 H56 K N12 O28 Pr
+# Mr        =   1188.86[Calc],   1188.85[Rep]       Volume/NonHatoms = 17 Ang**3
+# Dx,gcm-3  =     1.653[Calc],     1.653[Rep]
+# Z         =         2[Calc],         2[Rep]
+# Mu (mm-1) =     1.210[Calc],     1.210[Rep]  Xtal Size =  0.100x0.100x0.110 mm
+# F000      =    1220.0[Calc],    1220.0[Rep]  or F000' =   1220.66[Calc]
+# Reported   T Limits: Tmin=0.396              Tmax=0.745  AbsCorr = NONE
+# Calculated T Limits: Tmin=0.875 Tmin'=0.875  Tmax=0.886
+# Measured   HKL: Reported  29188, Embedded  29272, <Mult> 11.7
+# Reported   Hmax= 11, Kmax= 29, Lmax= 11, Nref=   4371        , Th(max)= 25.416
+# Obs in FCF Hmax= 11, Kmax= 29, Lmax= 11, Nref=   4371[  2505], Th(max)= 25.415
+# Calculated Hmax= 11, Kmax= 29, Lmax= 11, Nref=   4394[  2515], Ratio=1.74/0.99
+# Reported   Rho(min) = -0.74, Rho(max) =  1.12 e/Ang**3 (From CIF)
+# Calculated Rho(min) = -0.76, Rho(max) =  1.14 e/Ang**3 (From CIF+FCF data)
+# w=1/[\s^2^(Fo^2^)+(0.1190P)^2^], P=(Fo^2^+2Fc^2^)/3
+# R= 0.0659(  2276), wR2= 0.2083(  4371), S = 0.978      (From FCF data only)
+# R= 0.0659(  2276), wR2= 0.2082(  4371), S = 0.978, Npar=  427, Flack   0.49(4)
+# Number Bijvoet Pairs = 1866 ( 99%),       775 Selected for:  Parsons   0.47(3)
+#               P3(tr) 0.000, P3(tw) 1.000, Student-T Nu =  56,  Hooft 0.459(18)
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+090_ALERT_3_B Poor Data / Parameter Ratio (Zmax > 18) ........       5.87 Note
+242_ALERT_2_B Low    'MainMol' Ueq as Compared to Neighbors of         K1 Check
+420_ALERT_2_B D-H Bond Without Acceptor  O5       --H5       .     Please Check
+420_ALERT_2_B D-H Bond Without Acceptor  O5       --H5A      .     Please Check
+420_ALERT_2_B D-H Bond Without Acceptor  O19      --H11B     .     Please Check
+420_ALERT_2_B D-H Bond Without Acceptor  O21      --H21      .     Please Check
+#===============================================================================
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of        O12 Check
+242_ALERT_2_C Low    'MainMol' Ueq as Compared to Neighbors of        Pr1 Check
+244_ALERT_4_C Low    'Solvent' Ueq as Compared to Neighbors of        C11 Check
+244_ALERT_4_C Low    'Solvent' Ueq as Compared to Neighbors of         C1 Check
+260_ALERT_2_C Large Average Ueq of Residue Including        O5      0.191 Check
+260_ALERT_2_C Large Average Ueq of Residue Including       O11      0.216 Check
+342_ALERT_3_C Low Bond Precision on  C-C Bonds ...............     0.0084 Ang.
+906_ALERT_3_C Large K Value in the Analysis of Variance ......     10.717 Check
+906_ALERT_3_C Large K Value in the Analysis of Variance ......      2.819 Check
+906_ALERT_3_C Large K Value in the Analysis of Variance ......      2.078 Check
+911_ALERT_3_C Missing FCF Refl Between Thmin & STh/L=    0.600          5 Report
+973_ALERT_2_C Check Calcd Positive Resid. Density on       Pr1       1.08 eA-3
+977_ALERT_2_C Check Negative Difference Density on H12B      .      -0.31 eA-3
+977_ALERT_2_C Check Negative Difference Density on H14B      .      -0.32 eA-3
+#===============================================================================
+002_ALERT_2_G Number of Distance or Angle Restraints on AtSite         31 Note
+003_ALERT_2_G Number of Uiso or Uij Restrained non-H Atoms ...         48 Report
+004_ALERT_5_G Polymeric Structure Found with Maximum Dimension          2 Info
+007_ALERT_5_G Number of Unrefined Donor-H Atoms ..............         10 Report
+012_ALERT_1_G N.O.K.   _shelx_res_checksum Found in CIF ......     Please Check
+020_ALERT_3_G The Value of Rint is Greater Than 0.12 .........      0.163 Report
+033_ALERT_4_G Flack x Value Deviates > 3.0 * sigma from Zero .      0.490 Note
+072_ALERT_2_G SHELXL First  Parameter in WGHT  Unusually Large       0.12 Report
+172_ALERT_4_G The CIF-Embedded .res File Contains DFIX Records          7 Report
+173_ALERT_4_G The CIF-Embedded .res File Contains DANG Records         16 Report
+174_ALERT_4_G The CIF-Embedded .res File Contains FLAT Records          2 Report
+176_ALERT_4_G The CIF-Embedded .res File Contains SADI Records          2 Report
+177_ALERT_4_G The CIF-Embedded .res File Contains DELU Records          1 Report
+178_ALERT_4_G The CIF-Embedded .res File Contains SIMU Records          5 Report
+186_ALERT_4_G The CIF-Embedded .res File Contains ISOR Records          5 Report
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Pr1      --O16      .        7.3 s.u.
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Pr1      --O22      .        5.3 s.u.
+300_ALERT_4_G Atom Site Occupancy of O3         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O4         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O14        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O16        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O18        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O20        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O22        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O23        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O5         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O19        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of C3         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of C7         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of C13        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of C15        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H3A        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H3B        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H5         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H5A        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H7A        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H7B        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H11B       Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H13A       Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H13B       Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H15A       Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H15B       Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H19        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O11        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O21        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H1A        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H6B        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H11        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of H21        Constrained at        0.5 Check
+301_ALERT_3_G Main Residue  Disorder ..............(Resd  1  )        46% Note
+302_ALERT_4_G Anion/Solvent/Minor-Residue Disorder (Resd  2  )        33% Note
+302_ALERT_4_G Anion/Solvent/Minor-Residue Disorder (Resd  3  )        11% Note
+367_ALERT_2_G Long?  C(sp?)-C(sp?) Bond  C2       - C11      .       1.50 Ang.
+410_ALERT_2_G Short Intra H...H Contact  H2A      ..H3A      .       2.14 Ang.
+                                                      x,y,z  =      1_555 Check
+410_ALERT_2_G Short Intra H...H Contact  H3A      ..H11A     .       1.27 Ang.
+                                                      x,y,z  =      1_555 Check
+410_ALERT_2_G Short Intra H...H Contact  H5B      ..H13A     .       1.22 Ang.
+                                                      x,y,z  =      1_555 Check
+410_ALERT_2_G Short Intra H...H Contact  H5B      ..H15B     .       1.66 Ang.
+                                                      x,y,z  =      1_555 Check
+410_ALERT_2_G Short Intra H...H Contact  H7B      ..H11A     .       1.84 Ang.
+                                                      x,y,z  =      1_555 Check
+410_ALERT_2_G Short Intra H...H Contact  H9B      ..H13A     .       2.06 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H2B      ..H19      .       1.16 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H5       ..H16      .       2.06 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H9A      ..H19      .       1.65 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H1A      ..H4B      .       2.06 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H6A      ..H11      .       1.83 Ang.
+                                                      x,y,z  =      1_555 Check
+414_ALERT_2_G Short Intra D-H..H-X       H8B      ..H21      .       2.13 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O2       ..C16      .       2.96 Ang.
+                                                    x,y,1+z  =      1_556 Check
+432_ALERT_2_G Short Inter X...Y Contact  O7       ..C10      .       2.81 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O17      ..C10      .       2.97 Ang.
+                                                      x,y,z  =      1_555 Check
+480_ALERT_4_G Long H...A H-Bond Reported H7B      ..O12      .       2.64 Ang.
+480_ALERT_4_G Long H...A H-Bond Reported H7B      ..O14      .       2.65 Ang.
+480_ALERT_4_G Long H...A H-Bond Reported H1A      ..N7       .       2.68 Ang.
+480_ALERT_4_G Long H...A H-Bond Reported H4A      ..O8       .       2.64 Ang.
+480_ALERT_4_G Long H...A H-Bond Reported H8A      ..O14      .       2.63 Ang.
+480_ALERT_4_G Long H...A H-Bond Reported H14A     ..O3       .       2.63 Ang.
+484_ALERT_4_G Round D-H..A Angle Rep for O19      ..O6       .        140 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for O19      ..O5       .        139 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N2       ..O9       .        167 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N2       ..O15      .        146 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N2       ..N5       .        167 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C3       ..O18      .        126 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C5       ..O8       .        139 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C7       ..O22      .        157 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C7       ..O23      .        162 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C7       ..O12      .        150 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C7       ..O14      .        165 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C7       ..O22      .        147 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C11      ..O1       .        146 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C11      ..O14      .        168 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C13      ..O22      .        120 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C15      ..O3       .        168 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C15      ..O18      .        154 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N7       ..O9       .        161 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N7       ..O13      .        134 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for N7       ..N5       .        163 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for O21      ..N7       .        165 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C1       ..O9       .        171 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C1       ..O11      .        111 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C4       ..O8       .        150 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C6       ..O21      .        110 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C8       ..O14      .        174 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C10      ..O7       .        128 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C10      ..N3       .        162 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C12      ..O16      .        132 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C14      ..O3       .        138 Degree
+484_ALERT_4_G Round D-H..A Angle Rep for C14      ..O20      .        125 Degree
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      43.30 Deg.
+              C5   -O5   -H5A     1_555   1_555   1_555 ......     #  347 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      43.20 Deg.
+              C11  -O19  -H11B    1_555   1_555   1_555 ......     #  350 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      41.50 Deg.
+              O5   -C5   -H5A     1_555   1_555   1_555 ......     #  371 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      41.00 Deg.
+              O19  -C11  -H11B    1_555   1_555   1_555 ......     #  396 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      35.00 Deg.
+              C6   -O11  -H6B     1_555   1_555   1_555 ......     #  425 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      35.20 Deg.
+              C1   -O21  -H1A     1_555   1_555   1_555 ......     #  428 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      21.80 Deg.
+              O21  -C1   -H1A     1_555   1_555   1_555 ......     #  435 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      21.60 Deg.
+              O11  -C6   -H6B     1_555   1_555   1_555 ......     #  453 Check
+811_ALERT_5_G No ADDSYM Analysis: Too Many Excluded Atoms ....          ! Info
+860_ALERT_3_G Number of Least-Squares Restraints .............        716 Note
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+908_ALERT_2_G Max. Perc. Data with I > 2*s(I) per Res.Shell .      63.20% Note
+910_ALERT_3_G Missing # of FCF Reflection(s) Below Theta(Min).          1 Note
+912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600          4 Note
+933_ALERT_2_G Number of HKL-OMIT Records in Embedded .res File          6 Note
+978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          2 Info
+#===============================================================================
+
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  6 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+ 14 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+121 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+  2 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+ 36 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+ 10 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+ 90 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  3 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+   2 Missing  Experimental  Info Issue(s) (Out of  64 Tests) -   97 % Satisfied
+   1 Experimental  Data  Related Issue(s) (Out of  35 Tests) -   97 % Satisfied
+  63 Structural  Model   Related Issue(s) (Out of 136 Tests) -   54 % Satisfied
+  77 Unresolved or to be Checked Issue(s) (Out of 274 Tests) -   72 % Satisfied
+
+#                                                                              *

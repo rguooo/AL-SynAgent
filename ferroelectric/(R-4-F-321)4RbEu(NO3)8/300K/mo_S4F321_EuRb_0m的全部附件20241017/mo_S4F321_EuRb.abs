@@ -1,0 +1,165 @@
+
+
+ SADABS-2016/2 - Bruker AXS area detector scaling and absorption correction 
+ --------------------------------------------------------------------------
+
+ Reference: Krause, L., Herbst-Irmer, R., Sheldrick G.M. & Stalke D.,
+ J. Appl. Cryst. 48 (2015) 3-10.
+
+ Equivalent reflections defined by point group 2/m    for scaling
+
+ Equivalent reflections defined by point group 2/m    for error model
+
+ Reading file mo_S4F321_EuRb_0m.raw
+
+ Mean and maximum errors in direction cosine check function =   0.002   0.008
+ The mean error should not exceed 0.005, and is usually caused by matrix
+ changes during data processing.
+
+ Approximate wavelength, cell and maximum 2-theta (from cosines etc.):
+ 0.71147   24.131    9.878    9.919   89.992   90.913   89.953   53.17
+
+ Scan  2-theta  high res  %[I>3sig(I)]
+   1     0.00    0.8000      26.00
+   2    11.90    0.8001      56.36
+   3    21.46    0.8001      60.25
+   4    11.90    0.8000      57.15
+
+ Fast scans:  1
+
+ These scans are used only to provide replacements for reflections missing
+ in all other scans (e.g.  overloads suppressed by SAINT) and do not otherwise
+ contribute to the final reflection file.
+
+ Fast scans truncated to  1.5000 Angstroms
+
+ ==============================================================================
+
+ PART 1 - Refinement of parameters to model systematic errors
+
+ Thresholds should now be specified for excluding reflections from the
+ parameter refinement; these reflections may still be corrected and included
+ in the final output .hkl file
+
+   22064 Reflections of which   2602 unique;   29.86 data per frame
+
+ Redundancy:          1     2     3     4     5     6     7     8     9+
+ Number of groups:    21    23    96    84   137   362   375   359  1145
+
+ Mean(I/sigma):  -inf    0     1     2     3     5    10    15    20   +inf
+ Number of groups:    58   544   367   284   393   453   209   120   174
+
+
+ Settings for parameter refinement:
+
+ Maximum resolution =  0.1000 A
+ (Intensity/sigma) threshold = 1.500
+ Restraint esd for equal adjacent scale factors =  0.0050
+ Maximum odd and even orders for spherical harmonics =   3   6
+
+   16856 Reflections employed for parameter determination
+ Effective data to parameter ratio =   19.09
+
+ wR2(int) =  0.1902 (selected reflections only, before parameter refinement)
+
+ Cycle  wR2(incid)  wR2(diffr)  Mean wt.
+    1     0.1578      0.1408     0.6126
+    2     0.1344      0.1273     0.6734
+    3     0.1246      0.1229     0.6788
+    4     0.1242      0.1231     0.6763
+    5     0.1242      0.1233     0.6736
+    6     0.1229      0.1224     0.6719
+    7     0.1213      0.1211     0.6713
+    8     0.1198      0.1197     0.6712
+    9     0.1188      0.1188     0.6711
+   10     0.1182      0.1183     0.6708
+   11     0.1182      0.1182     0.6703
+   12     0.1185      0.1185     0.6697
+   13     0.1187      0.1187     0.6690
+   14     0.1187      0.1188     0.6685
+   15     0.1186      0.1186     0.6681
+   16     0.1183      0.1184     0.6676
+   17     0.1181      0.1181     0.6675
+   18     0.1179      0.1180     0.6672
+   19     0.1179      0.1180     0.6672
+   20     0.1180      0.1180     0.6671
+   21     0.1180      0.1181     0.6668
+   22     0.1180      0.1181     0.6668
+   23     0.1180      0.1181     0.6666
+   24     0.1179      0.1180     0.6666
+   25     0.1178      0.1179     0.6665
+   26     0.1178      0.1178     0.6664
+   27     0.1177      0.1178     0.6662
+   28     0.1177      0.1178     0.6661
+   29     0.1177      0.1178     0.6660
+   30     0.1177      0.1178     0.6660
+   31     0.1177      0.1177     0.6658
+   32     0.1176      0.1177     0.6657
+   33     0.1176      0.1177     0.6656
+   34     0.1176      0.1177     0.6656
+   35     0.1176      0.1177     0.6656
+   36     0.1176      0.1177     0.6655
+   37     0.1176      0.1177     0.6655
+   38     0.1176      0.1177     0.6654
+   39     0.1176      0.1177     0.6654
+   40     0.1176      0.1177     0.6653
+   41     0.1175      0.1176     0.6653
+   42     0.1176      0.1176     0.6653
+   43     0.1175      0.1176     0.6652
+   44     0.1175      0.1176     0.6651
+   45     0.1175      0.1176     0.6653
+   46     0.1175      0.1176     0.6651
+   47     0.1175      0.1176     0.6651
+   48     0.1175      0.1176     0.6651
+   49     0.1174      0.1175     0.6649
+   50     0.1175      0.1176     0.6650
+
+ wR2(int) =  0.1176 (selected reflections only, after parameter refinement)
+
+ ==============================================================================
+
+ PART 2 - Reject outliers and establish error model
+
+ Rejected reflections are ignored in the statistics and Postscript plots
+ (except the detector diagnostics) and in the output .hkl file
+ Before applying rejections there are:
+
+   22064 total and   2602 unique reflections assuming Friedel's law
+ plus   1329 total and   413 unique reflections in fast scans
+
+ Reflections rejected for which |I-<I>|/su >   4.00
+ where:  su^2 = sigma(I)^2 + (  0.04000 <I>)^2  (sigma(I) from SAINT)
+
+   20753 total and   2602 unique reflections left after |I-<I>|/su test
+ plus   1112 total and   397 unique reflections in fast scans
+
+ su^2 = [K*sigma(I)]^2 + [g<I>]^2  where sigma(I) is from SAINT
+
+
+ Error model 5: refine all K and overall g
+
+ Run 2theta R(int) Incid. factors Diffr. factors    K      g   I/s(lim) Total I>2sig(I)
+   1f  0.0  0.1602  0.294 - 0.638  0.811 - 1.520  1.746  0.1253   8.0    1112     723
+   2  11.9  0.1581  0.422 - 0.895  0.810 - 1.545  1.156  0.1253   8.0   12070    7497
+   3  21.5  0.1160  0.233 - 0.252  0.827 - 1.502  1.145  0.1253   8.0    1822    1162
+   4  11.9  0.1645  0.396 - 0.701  0.810 - 1.546  1.336  0.1253   8.0    6861    4002
+
+ I/s(lim) is the limiting value of I/sigma(I) for a reflection of infinite
+ intensity, and may be used as a criterion for data quality (Diederichs(2010),
+ Acta Cryst, D66, 733-740. The above statistics are based on all non-rejected
+ data, ignoring reflections without equivalents when estimating R(int) and K.
+
+
+ ==============================================================================
+
+ PART 3 - Output Postscript diagnostics and corrected data
+
+ Diagnostic plots written to Postscript file mo_S4F321_EuRb.eps
+
+ Reflections not merged
+      30 Overloads replaced by fast scan measurements
+   20783 Corrected reflections written to file mo_S4F321_EuRb_0m.hkl
+ Estimated minimum and maximum transmission:  0.3899  0.7454
+ The ratio of these values is more reliable than their absolute values!
+ Additional spherical absorption correction applied with mu*r =  0.2000
+

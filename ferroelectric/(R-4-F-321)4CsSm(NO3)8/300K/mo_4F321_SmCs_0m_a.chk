@@ -1,0 +1,135 @@
+#===============================================================================
+# PLATON/CHECK-( 90622) versus check.def version 220517, Entry: mo_4f321_smcs_0m
+# Data: mo_4F321_SmCs_0m_a.cif - Type: CIF       Bond Precision   C-C = 0.0369 A
+# Refl: mo_4F321_SmCs_0m_a.fcf - Type: LIST4                        Temp = 301 K
+# Audit:OLEX2 1.5 (COMPILED 2024.02.16 SVN.R378C4104 FOR OLEXSYS, GUI SVN.R6928)
+# Refin:SHELXL 2019/3 (SHELDRICK, 2015)
+# X-ray MoKa              R(int) = 0.080,  wR2/R(int) =  2.7,  Nref/Npar =   8.8
+# Cell   23.786(5)   10.089(2)   10.041(2)           90    91.644(5)          90
+# Wavelength 0.71073  Volume Reported       2408.5(9) Calculated       2408.6(8)
+# SpaceGroup from Symmetry C 2          Hall: C 2y                    monoclinic
+#                 Reported C 1 2 1            C 2y                    monoclinic
+# MoietyFormula Cs N8 O24 Sm, 4(C7 F N)
+#      Reported Cs N8 O24 Sm, 4(C7 F N)
+#    SumFormula C28 Cs F4 N12 O24 Sm
+#      Reported C28 Cs F4 N12 O24 Sm
+# Mr        =   1247.67[Calc],   1247.66[Rep]       Volume/NonHatoms = 17 Ang**3
+# Dx,gcm-3  =     1.720[Calc],     1.720[Rep] Model_Volume/NonHatoms = 16 Ang**3
+# Z         =         2[Calc],         2[Rep]  Solvent Accessible Volume =    7%
+# Mu (mm-1) =     2.070[Calc],     2.070[Rep]  Xtal Size =  0.100x0.100x0.110 mm
+# F000      =    1194.0[Calc],    1194.0[Rep]  or F000' =   1193.69[Calc]
+# Reported   T Limits: Tmin=0.615              Tmax=0.746  AbsCorr = NONE
+# Calculated T Limits: Tmin=0.796 Tmin'=0.796  Tmax=0.813
+# Measured   HKL: Reported  23753, Embedded  28374, <Mult>  7.2
+# Reported   Hmax= 32, Kmax= 13, Lmax= 13, Nref=   6201        , Th(max)= 28.698
+# Obs in FCF Hmax= 32, Kmax= 13, Lmax= 13, Nref=   6201[  3281], Th(max)= 28.698
+# Calculated Hmax= 32, Kmax= 13, Lmax= 13, Nref=   6237[  3290], Ratio=1.88/0.99
+# Reported   Rho(min) = -1.52, Rho(max) =  2.07 e/Ang**3 (From CIF)
+# Calculated Rho(min) = -1.56, Rho(max) =  1.86 e/Ang**3 (From CIF+FCF data)
+# w=1/[\s^2^(Fo^2^)+(0.1198P)^2^+12.5231P], P=(Fo^2^+2Fc^2^)/3
+# R= 0.0679(  4859), wR2= 0.2187(  6201), S = 1.121      (From FCF data only)
+# R= 0.0679(  4859), wR2= 0.2187(  6201), S = 1.121, Npar=  373, Flack   0.32(5)
+# Number Bijvoet Pairs = 2920 ( 99%),      1846 Selected for:  Parsons 0.317(10)
+#               P3(tr) 0.000, P3(tw) 1.000, Student-T Nu =   5,  Hooft 0.304(13)
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+242_ALERT_2_B Low    'MainMol' Ueq as Compared to Neighbors of        Cs1 Check
+342_ALERT_3_B Low Bond Precision on  C-C Bonds ...............    0.03692 Ang.
+431_ALERT_2_B Short Inter HL..A Contact  F21      ..O2       .       2.58 Ang.
+                                                      x,y,z  =      1_555 Check
+#===============================================================================
+234_ALERT_4_C Large Hirshfeld Difference Sm1      --O18      .       0.16 Ang.
+234_ALERT_4_C Large Hirshfeld Difference O2       --N3       .       0.19 Ang.
+234_ALERT_4_C Large Hirshfeld Difference C4       --C10      .       0.16 Ang.
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of         O1 Check
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of        O15 Check
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of        O17 Check
+242_ALERT_2_C Low    'MainMol' Ueq as Compared to Neighbors of        Sm1 Check
+243_ALERT_4_C High   'Solvent' Ueq as Compared to Neighbors of        F21 Check
+243_ALERT_4_C High   'Solvent' Ueq as Compared to Neighbors of         C1 Check
+244_ALERT_4_C Low    'Solvent' Ueq as Compared to Neighbors of        C10 Check
+244_ALERT_4_C Low    'Solvent' Ueq as Compared to Neighbors of        C12 Check
+260_ALERT_2_C Large Average Ueq of Residue Including        F1      0.118 Check
+260_ALERT_2_C Large Average Ueq of Residue Including       F21      0.139 Check
+431_ALERT_2_C Short Inter HL..A Contact  F21      ..O17      .       2.80 Ang.
+                                                      x,y,z  =      1_555 Check
+601_ALERT_2_C Unit Cell Contains Solvent Accessible VOIDS of .         32 Ang**3
+911_ALERT_3_C Missing FCF Refl Between Thmin & STh/L=    0.600          5 Report
+971_ALERT_2_C Check Calcd Resid. Dens.  2.17Ang From N2              1.86 eA-3
+971_ALERT_2_C Check Calcd Resid. Dens.  1.56Ang From F21             1.81 eA-3
+971_ALERT_2_C Check Calcd Resid. Dens.  0.25Ang From C12             1.54 eA-3
+972_ALERT_2_C Check Calcd Resid. Dens.  0.26Ang From F21            -1.56 eA-3
+973_ALERT_2_C Check Calcd Positive Resid. Density on       Sm1       1.38 eA-3
+975_ALERT_2_C Check Calcd Resid. Dens.  1.00Ang From O15     .       0.62 eA-3
+976_ALERT_2_C Check Calcd Resid. Dens.  1.03Ang From C7      .      -0.62 eA-3
+976_ALERT_2_C Check Calcd Resid. Dens.  0.95Ang From O5      .      -0.52 eA-3
+#===============================================================================
+002_ALERT_2_G Number of Distance or Angle Restraints on AtSite         31 Note
+003_ALERT_2_G Number of Uiso or Uij Restrained non-H Atoms ...         40 Report
+004_ALERT_5_G Polymeric Structure Found with Maximum Dimension          2 Info
+033_ALERT_4_G Flack x Value Deviates > 3.0 * sigma from Zero .      0.320 Note
+040_ALERT_1_G No H-atoms in this Carbon Containing Compound ..     Please Check
+072_ALERT_2_G SHELXL First  Parameter in WGHT  Unusually Large       0.12 Report
+083_ALERT_2_G SHELXL Second Parameter in WGHT  Unusually Large      12.52 Why ?
+172_ALERT_4_G The CIF-Embedded .res File Contains DFIX Records         14 Report
+173_ALERT_4_G The CIF-Embedded .res File Contains DANG Records         30 Report
+178_ALERT_4_G The CIF-Embedded .res File Contains SIMU Records          3 Report
+186_ALERT_4_G The CIF-Embedded .res File Contains ISOR Records          2 Report
+231_ALERT_4_G Hirshfeld Test (Solvent)   F21      --C8       .        5.2 s.u.
+231_ALERT_4_G Hirshfeld Test (Solvent)   F21      --C10      .        7.7 s.u.
+301_ALERT_3_G Main Residue  Disorder ..............(Resd  1  )        34% Note
+432_ALERT_2_G Short Inter X...Y Contact  O1       ..C1       .       3.00 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O2       ..C10      .       2.52 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O7       ..C1       .       2.28 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O10      ..C1       .       2.54 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O11      ..C2       .       2.97 Ang.
+                                                    x,1+y,z  =      1_565 Check
+432_ALERT_2_G Short Inter X...Y Contact  O17      ..C10      .       2.72 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  N3       ..C10      .       3.01 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  N4       ..C1       .       2.82 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O9       ..C1       .       2.80 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O13      ..C1       .       3.01 Ang.
+                                                      x,y,z  =      1_555 Check
+432_ALERT_2_G Short Inter X...Y Contact  O14      ..C1       .       2.31 Ang.
+                                                      x,y,z  =      1_555 Check
+860_ALERT_3_G Number of Least-Squares Restraints .............        478 Note
+910_ALERT_3_G Missing # of FCF Reflection(s) Below Theta(Min).          1 Note
+912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600          3 Note
+933_ALERT_2_G Number of HKL-OMIT Records in Embedded .res File          8 Note
+978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          1 Info
+#===============================================================================
+
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  3 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+ 24 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+ 30 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+  1 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+ 35 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+  5 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+ 15 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  1 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+   0 Missing  Experimental  Info Issue(s) (Out of  64 Tests) -  100 % Satisfied
+   0 Experimental  Data  Related Issue(s) (Out of  35 Tests) -  100 % Satisfied
+  36 Structural  Model   Related Issue(s) (Out of 136 Tests) -   74 % Satisfied
+  23 Unresolved or to be Checked Issue(s) (Out of 274 Tests) -   92 % Satisfied
+
+#                                                                              *

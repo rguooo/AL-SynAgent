@@ -1,0 +1,12 @@
+best model parameters:  {'colsample_bytree': 0.8094794903251251, 'gamma': 0.6512997792780668, 'learning_rate': 0.4619808662684688, 'max_depth': 8.0, 'min_child_weight': 5.665823581231921, 'n_estimators': 187.0, 'subsample': 0.63793402895504}
+The_best_model_train_score: AUC: 0.500000, Accuracy: 0.500000, Precision: 0.000000, Recall: 0.000000
+The_best_model_test_score: AUC: 0.500000, Accuracy: 0.500000, Precision: 0.000000, Recall: 0.000000
+best model parameters:  {'colsample_bytree': 0.567331486992144, 'gamma': 0.3095688879333317, 'learning_rate': 0.07179058996097165, 'max_depth': 8.0, 'min_child_weight': 0.6545480924608957, 'n_estimators': 71.0, 'subsample': 0.9816341236118993}
+The_best_model_train_score: AUC: 0.928571, Accuracy: 0.909091, Precision: 0.800000, Recall: 1.000000
+The_best_model_test_score: AUC: 0.750000, Accuracy: 0.666667, Precision: 1.000000, Recall: 0.500000
+best model parameters:  {'colsample_bytree': 0.5126831636881755, 'gamma': 0.444406410793799, 'learning_rate': 0.14747194877094236, 'max_depth': 9.0, 'min_child_weight': 0.6420878299428079, 'n_estimators': 99.0, 'subsample': 0.896149220916155}
+The_best_model_train_score: AUC: 1.000000, Accuracy: 1.000000, Precision: 1.000000, Recall: 1.000000
+The_best_model_test_score: AUC: 0.800000, Accuracy: 0.666667, Precision: 0.333333, Recall: 1.000000
+best model parameters:  {'colsample_bytree': 0.9014140518284719, 'gamma': 0.7535933489310267, 'learning_rate': 0.3907790225268656, 'max_depth': 3.0, 'min_child_weight': 0.6518553490754416, 'n_estimators': 113.0, 'subsample': 0.6554640196815777}
+The_best_model_train_score: AUC: 0.928571, Accuracy: 0.941176, Precision: 0.909091, Recall: 1.000000
+The_best_model_test_score: AUC: 0.666667, Accuracy: 0.600000, Precision: 0.500000, Recall: 1.000000

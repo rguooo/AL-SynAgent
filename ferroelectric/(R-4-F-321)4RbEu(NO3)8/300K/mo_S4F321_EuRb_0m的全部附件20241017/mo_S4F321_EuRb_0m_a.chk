@@ -1,0 +1,153 @@
+#===============================================================================
+# PLATON/CHECK-( 90622) versus check.def version 220517, Entry: mo_s4f321_eurb_0
+# Data: mo_S4F321_EuRb_0m_a.cif - Type: CIF      Bond Precision   C-C = 0.0191 A
+# Refl: mo_S4F321_EuRb_0m_a.fcf - Type: LIST4                       Temp = 300 K
+# Audit:OLEX2 1.5 (COMPILED 2024.02.16 SVN.R378C4104 FOR OLEXSYS, GUI SVN.R6928)
+# Refin:XL  (SHELDRICK, 2008)
+# X-ray MoKa              R(int) = 0.141,  wR2/R(int) =  1.9,  Nref/Npar =   7.0
+# Cell  24.182(10)    9.907(3)    9.916(4)           90     91.33(1)          90
+# Wavelength 0.71073  Volume Reported      2374.9(16) Calculated      2375.0(15)
+# SpaceGroup from Symmetry C 2          Hall: C 2y                    monoclinic
+#                 Reported C 1 2 1            C 2y                    monoclinic
+# MoietyFormula Eu N8 O24 Rb, 4(C7 H13 F N)
+#      Reported Eu N8 O24 Rb, 4(C7 H13 F N)
+#    SumFormula C28 H52 Eu F4 N12 O24 Rb
+#      Reported C28 H52 Eu F4 N12 O24 Rb
+# Mr        =   1254.25[Calc],   1254.24[Rep]       Volume/NonHatoms = 17 Ang**3
+# Dx,gcm-3  =     1.754[Calc],     1.754[Rep]
+# Z         =         2[Calc],         2[Rep]
+# Mu (mm-1) =     2.448[Calc],     2.449[Rep]  Xtal Size =  0.100x0.100x0.110 mm
+# F000      =    1264.0[Calc],    1264.0[Rep]  or F000' =   1262.55[Calc]
+# Reported   T Limits: Tmin=0.390              Tmax=0.745  AbsCorr = NONE
+# Calculated T Limits: Tmin=0.764 Tmin'=0.764  Tmax=0.783
+# Measured   HKL: Reported  20783, Embedded  20783, <Mult>  8.0
+# Reported   Hmax= 30, Kmax= 12, Lmax= 12, Nref=   4884        , Th(max)= 26.575
+# Obs in FCF Hmax= 30, Kmax= 12, Lmax= 12, Nref=   4884[  2614], Th(max)= 26.574
+# Calculated Hmax= 30, Kmax= 12, Lmax= 12, Nref=   4974[  2636], Ratio=1.85/0.98
+# Reported   Rho(min) = -2.86, Rho(max) =  2.52 e/Ang**3 (From CIF)
+# Calculated Rho(min) = -2.52, Rho(max) =  2.65 e/Ang**3 (From CIF+FCF data)
+# w=1/[\s^2^(Fo^2^)+(0.1901P)^2^], P=(Fo^2^+2Fc^2^)/3
+# R= 0.0928(  3522), wR2= 0.2757(  4884), S = 1.033      (From FCF data only)
+# R= 0.0928(  3522), wR2= 0.2757(  4884), S = 1.033, Npar=  372, Flack   0.92(5)
+# Number Bijvoet Pairs = 2270 ( 97%),      1303 Selected for:  Parsons   0.63(3)
+#               P3(tr) 0.000, P3(tw) 1.000, Student-T Nu =  99,  Hooft   0.68(3)
+#===============================================================================
+# For Documentation:http://www.platonsoft.nl/CIF-VALIDATION.pdf
+#===============================================================================
+#                                                                              *
+#===============================================================================
+#>>> The Following Improvement and Query ALERTS were generated - (Acta-Mode) <<<
+#===============================================================================
+     Format: alert-number_ALERT_alert-type_alert-level text
+
+973_ALERT_2_A Check Calcd Positive Resid. Density on       Rb1       2.65 eA-3
+973_ALERT_2_A Check Calcd Positive Resid. Density on       Eu1       2.53 eA-3
+#===============================================================================
+232_ALERT_2_B Hirshfeld Test Diff (M-X)  Eu1      --N1       .       14.3 s.u.
+242_ALERT_2_B Low    'MainMol' Ueq as Compared to Neighbors of        Rb1 Check
+936_ALERT_2_B The Embedded .res File Includes a DAMP Command .     2000.0 Report
+972_ALERT_2_B Check Calcd Resid. Dens.  0.81Ang From Eu1            -2.52 eA-3
+#===============================================================================
+020_ALERT_3_C The Value of Rint is Greater Than 0.12 .........      0.141 Report
+084_ALERT_3_C High wR2 Value (i.e. > 0.25) ...................       0.28 Report
+090_ALERT_3_C Poor Data / Parameter Ratio (Zmax > 18) ........       7.03 Note
+213_ALERT_2_C Atom O7              has ADP max/min Ratio .....        3.3 oblate
+213_ALERT_2_C Atom N3              has ADP max/min Ratio .....        3.1 oblate
+234_ALERT_4_C Large Hirshfeld Difference O10      --N6       .       0.16 Ang.
+234_ALERT_4_C Large Hirshfeld Difference O12      --N6       .       0.16 Ang.
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of         O7 Check
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of        O13 Check
+241_ALERT_2_C High   'MainMol' Ueq as Compared to Neighbors of        O14 Check
+242_ALERT_2_C Low    'MainMol' Ueq as Compared to Neighbors of        Eu1 Check
+250_ALERT_2_C Large U3/U1 Ratio for Average U(i,j) Tensor ....        3.6 Note
+250_ALERT_2_C Large U3/U1 Ratio for Average U(i,j) Tensor ....        2.8 Note
+260_ALERT_2_C Large Average Ueq of Residue Including        F1      0.169 Check
+260_ALERT_2_C Large Average Ueq of Residue Including        F2      0.140 Check
+342_ALERT_3_C Low Bond Precision on  C-C Bonds ...............    0.01908 Ang.
+360_ALERT_2_C Short  C(sp3)-C(sp3) Bond  C9       - C13      .       1.42 Ang.
+410_ALERT_2_C Short Intra H...H Contact  H3B      ..H5B      .       1.90 Ang.
+                                                      x,y,z  =      1_555 Check
+907_ALERT_2_C Flack x > 0.5, Structure Needs to be Inverted? .       0.92 Check
+972_ALERT_2_C Check Calcd Resid. Dens.  1.04Ang From Rb1            -1.69 eA-3
+977_ALERT_2_C Check Negative Difference Density on H11A      .      -0.41 eA-3
+977_ALERT_2_C Check Negative Difference Density on H13       .      -0.55 eA-3
+#===============================================================================
+002_ALERT_2_G Number of Distance or Angle Restraints on AtSite         27 Note
+003_ALERT_2_G Number of Uiso or Uij Restrained non-H Atoms ...         42 Report
+004_ALERT_5_G Polymeric Structure Found with Maximum Dimension          2 Info
+007_ALERT_5_G Number of Unrefined Donor-H Atoms ..............          2 Report
+033_ALERT_4_G Flack x Value Deviates > 3.0 * sigma from Zero .      0.920 Note
+072_ALERT_2_G SHELXL First  Parameter in WGHT  Unusually Large       0.19 Report
+168_ALERT_4_G The CIF-Embedded .res File Contains EXYZ Records          2 Report
+171_ALERT_4_G The CIF-Embedded .res File Contains EADP Records          2 Report
+172_ALERT_4_G The CIF-Embedded .res File Contains DFIX Records          7 Report
+173_ALERT_4_G The CIF-Embedded .res File Contains DANG Records         18 Report
+177_ALERT_4_G The CIF-Embedded .res File Contains DELU Records          1 Report
+178_ALERT_4_G The CIF-Embedded .res File Contains SIMU Records          3 Report
+186_ALERT_4_G The CIF-Embedded .res File Contains ISOR Records          5 Report
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Eu1      --O1       .       10.0 s.u.
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Eu1      --O4       .       12.0 s.u.
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Eu1      --O6       .       10.3 s.u.
+232_ALERT_2_G Hirshfeld Test Diff (M-X)  Eu1      --O8       .       10.5 s.u.
+300_ALERT_4_G Atom Site Occupancy of O1         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O2         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O3         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O4         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O5         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O6         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O8         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O9         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O11        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O15        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O16        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O17        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O18        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of O19        Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of N4         Constrained at        0.5 Check
+300_ALERT_4_G Atom Site Occupancy of N7         Constrained at        0.5 Check
+301_ALERT_3_G Main Residue  Disorder ..............(Resd  1  )        46% Note
+395_ALERT_2_G Deviating  X-O-Y   Angle From 120 for O19      .       48.7 Degree
+431_ALERT_2_G Short Inter HL..A Contact  F2       ..O19      .       2.47 Ang.
+                                                   x,-1+y,z  =      1_545 Check
+432_ALERT_2_G Short Inter X...Y Contact  O17      ..C4       .       3.02 Ang.
+                                                    x,1+y,z  =      1_565 Check
+432_ALERT_2_G Short Inter X...Y Contact  O18      ..C14      .       2.48 Ang.
+                                                    x,1+y,z  =      1_565 Check
+432_ALERT_2_G Short Inter X...Y Contact  O18      ..C8       .       2.56 Ang.
+                                                    x,1+y,z  =      1_565 Check
+432_ALERT_2_G Short Inter X...Y Contact  O19      ..C14      .       2.35 Ang.
+                                                    x,1+y,z  =      1_565 Check
+432_ALERT_2_G Short Inter X...Y Contact  O19      ..C8       .       2.38 Ang.
+                                                    x,1+y,z  =      1_565 Check
+434_ALERT_2_G Short Inter HL..HL Contact F1       ..F2       .       2.60 Ang.
+                                             1/2-x,1/2+y,-z  =      4_555 Check
+779_ALERT_4_G Suspect or Irrelevant (Bond) Angle(s) in CIF ...      25.70 Deg.
+              O5   -N7   -O16     1_555   1_555   1_555 ......     #  236 Check
+860_ALERT_3_G Number of Least-Squares Restraints .............        450 Note
+883_ALERT_1_G No Info/Value for _atom_sites_solution_primary .     Please Do !
+910_ALERT_3_G Missing # of FCF Reflection(s) Below Theta(Min).          1 Note
+912_ALERT_4_G Missing # of FCF Reflections Above STh/L=  0.600         21 Note
+916_ALERT_2_G Hooft y and Flack x Parameter Values Differ by .       0.24 Check
+978_ALERT_2_G Number C-C Bonds with Positive Residual Density.          0 Info
+#===============================================================================
+
+               ALERT_Level and ALERT_Type Summary
+               ==================================
+  2 ALERT_Level_A = Most Likely a Serious Problem - Resolve or Explain
+  4 ALERT_Level_B = A Potentially Serious Problem - Consider Carefully
+ 22 ALERT_Level_C = Check. Ensure it is Not caused by an Omission or Oversight
+ 49 ALERT_Level_G = General Info/Check that it is not Something Unexpected
+
+  1 ALERT_Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data.
+ 39 ALERT_Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+  7 ALERT_Type_3 Indicator that the Structure Quality may be Low.
+ 28 ALERT_Type_4 Improvement, Methodology, Query or Suggestion.
+  2 ALERT_Type_5 Informative Message, Check.
+#===============================================================================
+
+   1 Missing  Experimental  Info Issue(s) (Out of  64 Tests) -   98 % Satisfied
+   1 Experimental  Data  Related Issue(s) (Out of  35 Tests) -   97 % Satisfied
+  57 Structural  Model   Related Issue(s) (Out of 136 Tests) -   58 % Satisfied
+  20 Unresolved or to be Checked Issue(s) (Out of 274 Tests) -   93 % Satisfied
+
+#                                                                              *

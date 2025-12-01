@@ -1,0 +1,44 @@
+data_mo_s4f321_eurb_413k_0m_e
+_publ_section_references          
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+Sheldrick, G.M. (2015). Acta Cryst. C71, 3-8.
+;
+
+_cell_measurement_reflns_used     5915
+_cell_measurement_temperature     413.00
+_cell_measurement_theta_max       24.609
+_cell_measurement_theta_min       2.624
+_exptl_absorpt_correction_T_max   0.7459
+_exptl_absorpt_correction_T_min   0.4247
+_exptl_absorpt_correction_type    multi-scan
+_exptl_absorpt_process_details    
+;
+SADABS-2016/2 (Bruker,2016/2) was used for absorption correction.
+wR2(int) was 0.1173 before and 0.0761 after correction.
+The Ratio of minimum to maximum transmission is 0.5694.
+The \l/2 correction factor is Not present.
+;
+
+_computing_cell_refinement        'SAINT V8.40B (?, 2016)'
+_computing_data_reduction         'SAINT V8.40B (?, 2016)'
+_computing_molecular_graphics     'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_publication_material   'Olex2 1.5 (Dolomanov et al., 2009)'
+_computing_structure_refinement   'SHELXL 2019/3 (Sheldrick, 2015)'
+_computing_structure_solution     'SHELXT 2018/2 (Sheldrick, 2018)'
+_olex2_submission_special_instructions 'No special instructions were received'
+_audit_creation_date              2024-11-18
+_audit_creation_method            
+;
+Olex2 1.5
+(compiled 2024.02.16 svn.r378c4104 for OlexSys, GUI svn.r6928)
+;
+
+_publ_contact_author_name         ''
+_publ_contact_author_email        ?
+_publ_contact_author_phone        ?
+_publ_contact_author_address      ?
+_publ_contact_author_id_orcid     ?
+

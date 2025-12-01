@@ -1,0 +1,32 @@
+# start Validation Reply Form
+_vrf_PLAT973_mo_s4f321_eurb_0m_a
+;
+PROBLEM: Check Calcd Positive Resid. Density on       Rb1       2.65 eA-3
+RESPONSE: ...
+;
+_vrf_PLAT973_mo_s4f321_eurb_0m_a
+;
+PROBLEM: Check Calcd Positive Resid. Density on       Eu1       2.53 eA-3
+RESPONSE: ...
+;
+_vrf_PLAT232_mo_s4f321_eurb_0m_a
+;
+PROBLEM: Hirshfeld Test Diff (M-X)  Eu1      --N1       .       14.3 s.u.
+RESPONSE: ...
+;
+_vrf_PLAT242_mo_s4f321_eurb_0m_a
+;
+PROBLEM: Low    'MainMol' Ueq as Compared to Neighbors of        Rb1 Check
+RESPONSE: ...
+;
+_vrf_PLAT936_mo_s4f321_eurb_0m_a
+;
+PROBLEM: The Embedded .res File Includes a DAMP Command .     2000.0 Report
+RESPONSE: ...
+;
+_vrf_PLAT972_mo_s4f321_eurb_0m_a
+;
+PROBLEM: Check Calcd Resid. Dens.  0.81Ang From Eu1            -2.52 eA-3
+RESPONSE: ...
+;
+# end Validation Reply Form

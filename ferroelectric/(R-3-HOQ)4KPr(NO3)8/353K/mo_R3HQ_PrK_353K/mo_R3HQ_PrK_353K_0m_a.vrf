@@ -1,0 +1,32 @@
+# start Validation Reply Form
+_vrf_PLAT090_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: Poor Data / Parameter Ratio (Zmax > 18) ........       5.87 Note
+RESPONSE: ...
+;
+_vrf_PLAT242_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: Low    'MainMol' Ueq as Compared to Neighbors of         K1 Check
+RESPONSE: ...
+;
+_vrf_PLAT420_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: D-H Bond Without Acceptor  O5       --H5       .     Please Check
+RESPONSE: ...
+;
+_vrf_PLAT420_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: D-H Bond Without Acceptor  O5       --H5A      .     Please Check
+RESPONSE: ...
+;
+_vrf_PLAT420_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: D-H Bond Without Acceptor  O19      --H11B     .     Please Check
+RESPONSE: ...
+;
+_vrf_PLAT420_mo_r3hq_prk_353k_0m_a
+;
+PROBLEM: D-H Bond Without Acceptor  O21      --H21      .     Please Check
+RESPONSE: ...
+;
+# end Validation Reply Form

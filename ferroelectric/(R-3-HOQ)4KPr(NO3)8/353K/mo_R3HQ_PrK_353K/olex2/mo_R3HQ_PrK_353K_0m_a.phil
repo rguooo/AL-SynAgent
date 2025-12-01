@@ -1,0 +1,71 @@
+snum {
+  current_process_diagnostics = 'refinement'
+  metadata {
+    resolved_conflict_items = "" _cell_measurement_theta_min \
+                              _exptl_absorpt_correction_type \
+                              _cell_measurement_theta_max
+  }
+  hkl {
+    hkl_stat_file = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m_a.hkl'
+  }
+  solution {
+    program = ShelXS ShelXS-1997 ShelXS-1986 XS XT *ShelXT 'olex2.solve' XM \
+              ShelXD ShelXD-1997 SIR2002 SIR2004 SIR2008 SIR2011 Superflip \
+              Unknown ShelXS-2013 ShelXS86 ShelXD-2013
+    method = 'Dual Space' 'Charge Flipping' 'Direct Methods' \
+             'Patterson Method' 'Structure Expansion' '*Intrinsic Phasing' \
+             Unknown
+    current_atomic_volume = '17.1'
+  }
+  refinement {
+    completeness {
+      target = '- Laue Group Completeness to 2Θ=50.5: 99.7%%&#013;- Laue Group Completeness to 2Θ=50.8: 99.6%%&#013;- Point Group Completeness to 2Θ=50.5: 99.8%%&#013;- Point Group Completeness to 2Θ=50.8: 99.5%%'
+    }
+    parameters = '427.0'
+    data = '4371'
+    max_shift_over_esd = '0.005'
+    max_shift_over_esd_atom = 'Pr1'
+    max_shift_site = '0'
+    max_shift_site_atom = 'C3^a'
+    max_shift_u = '0'
+    max_shift_u_atom = 'O5'
+    max_peak = '1.16'
+    max_hole = '-0.73'
+    goof = '0.988'
+    hooft_str = '0.01(3)'
+    last_R1 = '0.0665'
+    last_wR2 = '0.21'
+    program = XL XH ShelXH-1997 *ShelXL ShelXL-1997 'olex2.refine' Unknown
+    method = '*Least Squares' CGLS 'Gauss-Newton' 'Levenberg-Marquardt' \
+             'Full Matrix' Unknown
+    max_cycles = '5'
+    manual_q_peak_override = '20'
+    suggested_weight = '0.1189 0'
+  }
+  history {
+    current_node = 'a3ee0c70956f504f967a8c5f531896e6'
+  }
+  metacif {
+    abs_file = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K.abs'
+    pcf_file = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\A.pcf'
+    p4p_file = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m.p4p'
+    integ_file = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m._ls'
+    list_abs_files = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K.abs;C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K.abs'
+    list_pcf_files = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\A.pcf;C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\A.pcf'
+    list_p4p_files = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m.p4p;C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m.p4p'
+    list_integ_files = 'C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m._ls;C:\\Users\\13009\\Desktop\\2D\\R3HQ_PrK\\353K\\mo_R3HQ_PrK_353K\\mo_R3HQ_PrK_353K_0m._ls'
+    user_modified = _cell_measurement_theta_min \
+                    _exptl_absorpt_correction_type \
+                    _cell_measurement_theta_max _exptl_crystal_colour_primary \
+                    _exptl_crystal_description _exptl_crystal_size_min \
+                    _exptl_crystal_size_mid _exptl_crystal_size_max \
+                    _chemical_absolute_configuration
+  }
+  report {
+    diffractometer = "Bruker APEX-II CCD"
+    title = 'mo_R3HQ_PrK_353K_0m_a'
+  }
+  xgrid {
+    scale = -0.636
+  }
+}

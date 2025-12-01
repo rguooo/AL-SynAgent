@@ -1,0 +1,434 @@
+
+Current Graphics Settings: DISPLAY  = on ; DISPLAY  TYPE =  X11
+===(See HELP GRAPHICS)===: METAFILE = off; METAFILE TYPE =   PS
+
+:: Data from: mo_S4F321_EuRb_0m_a.cif
+
+:: Restricted CIF-File Format assumed (Automatic NOMOVE effective) 
+
+:: Number of CIF data_ ENTRIES =     1
+
+:: Data Set mo_s4f321_eurb_0m_a                          
+
+::                             S.e.l.e.c.t.e.d  I.n.s.t.r.u.c.t.i.o.n.s
+:: ************************  CALC       - for an exhaustive geometry calculation
+:: *        PLATON        *  ADP        - for default labeled ORTEP-look-alike
+:: *        ======        *  VALID      - for a PLATON/checkCIF validation run
+:: *    A Multipurpose    *  LEPAGE     - to check for higher metrical symmetry
+:: *   Crystallographic   *  ADDSYM     - for a check for MISsed SYMmetry
+:: *         Tool         *  NONSYM     - for a non-cryst. symm. check
+:: *          --          *  SOLV       - to search for missed solvent areas
+:: *(C) 1980-2022 A.L.Spek*  SQUEEZE    - to handle disordered solvents
+:: *          --          *  NEWMAN     - for NEWMAN-Projection Plots
+:: *   version :  90622   *  LIST RADII - for current radii list
+:: *   scratch :  400MB   *  HELP       - for Available Instruction Information
+:: ************************  PLUTON     - to enter the PLUTON sub-program
+:: 
+:: DisplayWidth  = 1920
+:: DisplayHeight = 1080
+:: DisplayDepth  =   32
+
+
+
+    5.03( 5.18)    Entry #  1 -   2A,  4B, 22C, 49G-Alerts, BP   C-C = 0.0191
+
+Explanation and Advice for the Reported ALERTS
+================================================================================
+
+================================================================================
+ALERT_002 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This ALERT reports the number of atomic sites that are flagged as distance     
+ or angle restrained (D-Flag)                                                   
+
+================================================================================
+ALERT_003 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This ALERT reports the number of non-H atoms that are flagged as handled       
+ with Uiso or Uij restraints (U-Flag)                                           
+
+================================================================================
+ALERT_004 Type_5 Informative Message, Check.                                  
+================================================================================
+ This ALERT reports on polymeric networks and their dimensionality as found in  
+ the crystal structure.                                                         
+ Note: Polymeric structures can be legitimate or due to an erroneous            
+ structure analysis.                                                            
+
+================================================================================
+ALERT_007 Type_5 Informative Message, Check.                                  
+================================================================================
+ It is standard practice to refine Hydrogen atoms on hetero atoms as proof of   
+ their correct assignment.                                                      
+
+================================================================================
+ALERT_020 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ The value of Rint (i.e. _diffrn_reflns_av_R_equivalents) should normally be    
+ considerably less than 0.12 and in the order of magnitude of the reported      
+ R-values. Rint may be relatively meaningless when based on a very limited      
+ number of averaged data. Higher values should be accompanied by a suitable     
+ explanation in the _publ_section_exptl_refinement section. However,            
+ authors should first ensure that there are not overlooked problems             
+ associated with the data or the space-group. Elevated values for               
+ _diffrn_reflns_av_R_equivalents may be indicative of a need to recollect       
+ the data from a crystal of higher quality or that there is a problem with      
+ the data treatment. Consider the following                                     
+ (a) The absorption corrections are inadequate or inappropriate.                
+ (b) The overall quality of the data may be poor due to the crystal quality.    
+ (c) The crystal is very weakly diffracting, so that a large proportion of      
+     essentially "unobserved" reflections are being used in the refinement.     
+     You should consider using a better crystal or a data collection at         
+     low temperature and/or, if the compound is organic, using Cu radiation.    
+ (d) You are working in the wrong crystal system or Laue group.                 
+ (e) You have only a very small number of equivalent reflections, which         
+     may lead to artificially high values of _diffrn_reflns_av_R_equivalents    
+                                                                                
+ Note that if _diffrn_reflns_av_sigmaI/netI is also large, the quality          
+ of the data should be considered to be suspect.                                
+
+================================================================================
+ALERT_033 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ Check the relevance/validity of the absolute structure determination. Please   
+ refer to Flack,H.D. & Bernardinelli, G. (1999) Acta Cryst. A55, 908-915 and    
+ (2000) J. Appl. Cryst., 33, 1143-1148. A value of the Flack parameter that     
+ deviates significantly from zero  (taking into account the associated s.u.)    
+ might indicate that the absolute structure should be inverted in case of a     
+ value closer to 1.0 than to zero. A value close to 0.5 may be indicative of    
+ an inversion twin or a missed centre of inversion. For valid absolute          
+ structure assignments, abs(x) should be less than 2 * s.u., with s.u. < 0.04.  
+ For enantiopure compounds, s.u. should be less than 0.1.                       
+
+================================================================================
+ALERT_072 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The first parameter on the SHELXL weighting line has an exceptionally          
+ large value. This may indicate either improper reflection s.u.'s or            
+ an unresolved problem such as missed twinning.                                 
+
+================================================================================
+ALERT_084 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ wR2 will in general have a value twice of that of R1 with refinement on F**2.  
+ Significantly larger values usually indicate a poor refinement model.          
+ Also check for unaccounted for twinning.                                       
+
+================================================================================
+ALERT_090 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ The data/parameter ratio should in general be higher than 8 for a quality      
+ determination for a structure containing heavy atoms with ZMAX greater         
+ than 17. This ratio can be improved by not refining C-H parameters other       
+ than riding on their carrier atom.                                             
+
+================================================================================
+ALERT_168 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of EXYZ record(s) in the SHELXL .res file should be documented in the  
+ experimental section of the associated publication.                            
+
+================================================================================
+ALERT_171 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of EADP record(s) in the SHELXL .res file should be documented in the  
+ experimental section of the associated publication.                            
+
+================================================================================
+ALERT_172 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of DFIX record(s) should be documented in the experimental section     
+ of the associated publication.                                                 
+
+================================================================================
+ALERT_173 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of DANG record(s) should be documented in the experimental section     
+ of the associated publication.                                                 
+
+================================================================================
+ALERT_177 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of DELU record(s) in the SHELXL .res file should be documented in the  
+ experimental section of the associated publication.                            
+
+================================================================================
+ALERT_178 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of SIMU record(s) in the SHELXL .res file should be documented in the  
+ experimental section of the associated publication.                            
+
+================================================================================
+ALERT_186 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The use of ISOR record(s) in the SHELXL .res file should be documented in the  
+ experimental section of the associated publication.                            
+
+================================================================================
+ALERT_213 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The main axes values of the ADP(S) of the main residue(s) are determined and   
+ ordered: U1 < U2 < U3. The value of SQRT(U3/U1) main axis ADP ratio (Angstrom  
+ Units) is tested for the main residue(s). Large values may indicate unresolved 
+ disorder. Oblate criterium: U3 - U2 < U2 - U1. Prolate otherwise.              
+
+================================================================================
+ALERT_232 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The components of the anisotropic displacement parameters along chemical       
+ bonds are assumed to be equal in magnitude. Large differences might            
+ indicate contamination of these parameters with other (unresolved) effects     
+ such as (substitutional) disorder, model or data errors and/or                 
+ over-refinement. Atomic sites assigned the wrong scattering type (e.g. Ag      
+ versus Br) should generate 'problem signals' with this test. Data sets         
+ corrected for absorption effects with DELREF techniques (e.g. DIFABS, SHELXA,  
+ XABS2) often show large DELU values for bonds involving the heaviest atom.     
+                                                                                
+ A special case are M-C=O type of systems that generally show significant       
+ differences for the M-C bond. See D.Braga & T.F. Koetzle (1988), Acta Cryst.   
+ B44, 151-155).                                                                 
+                                                                                
+ Note: The original 'Hirshfeld-test' was defined in absolute terms (see         
+ F.L.Hirshfeld, Acta Cryst. (1976). A32, 239-244). The current test is with     
+ reference to the associated standard uncertainty.                              
+                                                                                
+ Note: The 'Hirshfeld-test' ALERTS are suppressed for polymeric or disordered   
+ structures.                                                                    
+
+================================================================================
+ALERT_234 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ The components of the anisotropic displacement parameters along chemical       
+ bonds are assumed to be equal in magnitude. Large differences might            
+ indicate contamination of these parameters with other (unresolved) effects     
+ such as (substitutional) disorder, model or data errors and/or                 
+ over-refinement. Atomic sites assigned the wrong scattering type (e.g. Ag      
+ versus Br) should generate 'problem signals' with this test. Data sets         
+ corrected for absorption effects with DELREF techniques (e.g. DIFABS, SHELXA,  
+ XABS2) often show large DELU values for bonds involving the heaviest atom.     
+                                                                                
+ Note: The original 'Hirshfeld-test' was defined in absolute terms (see         
+ F.L. Hirshfeld, Acta Cryst. (1976). A32, 239-244).                             
+
+================================================================================
+ALERT_241 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The U(eq) value of an atom is compared with the average U(eq) for to           
+ non-hydrogen atoms bonded to it. Large differences may indicate that the       
+ wrong atom type was assigned (e.g. N instead of O).                            
+
+================================================================================
+ALERT_242 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The U(eq) value of an atom is compared with the average U(eq) for              
+ non-hydrogen atoms bonded to it. Large differences may indicate that the       
+ wrong atom type was assigned (e.g. N instead of O). False alarms may           
+ occur for terminal groups such as the t-butyl moiety.                          
+
+================================================================================
+ALERT_250 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ An average value of the U(i,j) tensor of the asymmetric unit of a residue      
+ is calculated. An ALERT is generated when the corresponding U3/U1 ratio        
+ deviates significantly from 1.0. Large values of this ratio should be taken    
+ as an indication of possible systematic errors in the data or errors in        
+ the model. Visual inspection of an ORTEP plot will show that many              
+ displacement ellipsoids have their major axis pointing in the same direction.  
+
+================================================================================
+ALERT_260 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A large average Ueq value for a residue may indicate refinement with a too     
+ high (possibly fixed) population parameter value.                              
+
+================================================================================
+ALERT_300 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ This site is expected to be fully occupied but has been constrained (e.g.      
+ with a SHELXL FVAR variable) or fixed at a value less than 1.0. Please check   
+ for incomplete (substitutional) disorder handling.                             
+
+================================================================================
+ALERT_301 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ Atom sites that are not fully occupied are counted. A large fraction of        
+ disordered atoms may be both a signal for serious structure analysis           
+ problems or less reliable/interesting results.                                 
+
+================================================================================
+ALERT_342 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ The average s.u. for X-Y bonds is tested (named bond-precision). X-Y will      
+ generally be C-C bonds, unless there are none. In the last case the s.u.'s of  
+ the lowest element numbers are considered (excluding hydrogen). There are      
+ three test ranges: one for structures with the largest element Z < 20, one     
+ for the largest Z in the range 20 to 39 and one for structures with Z(max) 40  
+ or higher (_340, _341 and _342 respectively)                                   
+
+================================================================================
+ALERT_360 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Large deviations from generally accepted values may indicate model problems,   
+ over refinement etc. Default C4-C4 = 1.54 Ang. (X-Ray) value from              
+ Ladd & Palmer, Structure Determination by Xray Crystallography (1985).         
+ Note:                                                                          
+  - C4-C4 indicates a bond between atoms with 4 bonds each.                     
+
+================================================================================
+ALERT_395 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The X-O-Y angle value differs from the common ~120.0 Degrees.                  
+
+================================================================================
+ALERT_410 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Short intramolecular contacts may arise when H-atoms are in (false)            
+ calculated positions. Short intramolecular contacts may also be a sign for a   
+ false structure with the molecule sitting on a site with improper site         
+ symmetry (e.g. '2' instead of '-1') which may happen when a lattice            
+ translation is missed. Short contacts are defined using a van der Waals        
+ radius of 1.2 Angstrom. For intramolecular contacts alerts are generated       
+ for contacts less than 2.0 Angstrom.                                           
+
+================================================================================
+ALERT_431 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This test reports on short intermolecular Halogen .. Donor/Acceptor            
+ atom-type distances.                                                           
+
+================================================================================
+ALERT_432 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This test raised an ALERT for short intermolecular contacts.                   
+ In general, intermolecular contact distances should be not much smaller than   
+ the sum of the associated van der Waals Radii. More often than not, such       
+ short contacts can be a warning sign for errors. All short contacts should     
+ therefore be examined in some detail. Interesting exceptions are carbonyl-     
+ carbonyl interactions that often feature short O...C contacts (see Allen       
+ et al. (1998) B54, 320-329, short NO2 O...O interactions and BF4(-) to         
+ (aromatic) carbon contacts.                                                    
+
+================================================================================
+ALERT_434 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ This test reports on short intermolecular Halogen .. Halogen type distances.   
+
+================================================================================
+ALERT_779 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ Possibly erroneous (Bond)angle less than 45 degree. The angle might be         
+ considered for elimination from the CIF when irrelevant. This ALERT can        
+ also be triggered when the assigned occupancy factors are incorrect.           
+
+================================================================================
+ALERT_860 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ The use of restraints used in the refinement should be explained in            
+ the write-up of a structure analysis.                                          
+                                                                                
+ It is also recommended to include the refinement instructions in the           
+ CIF (e.g. the final .res of a SHELXL refinement) as a comment:                 
+ _iucr_refine_instructions_details                                              
+ ;                                                                              
+ TITL                                                                           
+ ..                                                                             
+ (etc.)                                                                         
+ ;                                                                              
+                                                                                
+ Note: An exception are restraints for floating origins (e.g. in P21).          
+
+================================================================================
+ALERT_883 Type_1 CIF Construction/Syntax Error, Inconsistent or Missing Data. 
+================================================================================
+ Please supply the proper info for _atom_site_solution_primary. Values must     
+ be one of the following: difmap, vecmap, heavy, direct, geom, disper, isomor,  
+ notdet, dual, iterative, other.                                                
+
+================================================================================
+ALERT_907 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ A Flack x value generally indicates that the structure needs to be inverted.   
+ Check whether the Flack x value is unreliable due to a weak anomalous          
+ dispersion signal, systematic errors or weak data and against know absolute    
+ structure.                                                                     
+                                                                                
+
+================================================================================
+ALERT_910 Type_3 Indicator that the Structure Quality may be Low.             
+================================================================================
+ Possible causes: Experimental beamstop Theta(min) limit set too high; A large  
+ unit-cell causing reflections effected by the beamstop. A possible technical   
+ solution on CCD based equipment involves the collection of additional images   
+ with the detector at a larger distance from the crystal with the beamstop      
+ setting changed accordingly. Alternatively, a large number of low-order        
+ 'outlier' reflections might have been 'Omitted' deliberately from the (final)  
+ least-squares refinement. The test is against the actual Theta(Min) of the     
+ reflections in the *.fcf file. See the *.ckf file for details of the missing   
+ reflections. Good quality low order reflections might be relevant for SQUEEZE  
+ and similar solvent modelling refinement techniques.                           
+
+================================================================================
+ALERT_912 Type_4 Improvement, Methodology, Query or Suggestion.               
+================================================================================
+ Possible causes: Missing cusp of data (due to rotation about one axis),        
+ deleted (overflow) reflections or improper strategy (orthorhombic for          
+ monoclinic crystal etc.) See the .ckf file for details.                        
+
+================================================================================
+ALERT_916 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The Hooft y Parameter is calculated independently from the Bijvoet             
+ differences and should have a value similar (observing the s.u.'s) to that of  
+ the Flack x Parameter. See:                                                    
+ Hooft, R.W.W, Straver, L.H. & Spek,A.L. (2008). J. Appl, Cryst. 41, 96-103.    
+ Thompson,A.L. & Watkin, D.J. (2009). Tetrahedron: Asymmetry,                   
+   doi:10.1016/j.tetasy.2009.02.025                                             
+                                                                                
+ Large differences may arise in cases where the Flack parameter was not         
+ done with BASF/TWIN or with essentially centrosymmetric data.                  
+ See:                                                                           
+ Flack, H.D., Bernardinelli, G, Clemente, D.A., Linden, A. Spek, A.L. (2006)    
+ Acta Cryst. B62, 695-701.                                                      
+
+================================================================================
+ALERT_936 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ The reason for the use of a DAMP instruction in the final refinement job       
+ should be discussed/reported. 'DAMP 0.0' should not be used for small          
+ molecule refinement since it masks non-convergence.                            
+
+================================================================================
+ALERT_972 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Larger than expected residual density minimum outside metal atom locations.    
+ This might be caused by unaccounted for twinning, wrongly assigned             
+ atom types and other model errors.                                             
+
+================================================================================
+ALERT_973 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Larger than expected residual density maximum on metal atom location.          
+ This might be caused by unaccounted for twinning, wrongly assigned             
+ atom types and other model errors.                                             
+ Another cause may be a SHELXL 'DAMP 0 0' instruction for a non-converged       
+ refinement.                                                                    
+
+================================================================================
+ALERT_977 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Negative density found in a difference density map at a H-atom location.       
+ A reason might be an incorrect AFIX instruction.                               
+
+================================================================================
+ALERT_978 Type_2 Indicator that the Structure Model may be Wrong or Deficient.
+================================================================================
+ Difference density maps generally show residual densities on C-C bonds.        
+ A significant number of those may indicate good data. Cases where this number  
+ is zero should be investigated for a reason. The use of aspherical scattering  
+ factors in the refinement model may be one.                                    
+
+:: CheckCIF out on :mo_S4F321_EuRb_0m_a.chk
+:: CheckFCF out on :mo_S4F321_EuRb_0m_a.ckf
+:: CheckVRF out on :mo_S4F321_EuRb_0m_a.vrf
+
+ 
